@@ -1,4 +1,4 @@
-VIDEO: https://www.youtube.com/watch?v=xzstcj3Cuso&t=772s&pp=ygUPcGF0dGVybiBwcm9ncmFt
+//VIDEO: https://www.youtube.com/watch?v=xzstcj3Cuso&t=772s&pp=ygUPcGF0dGVybiBwcm9ncmFt
 
 //Code for Dec Triangle
 #include <iostream>
