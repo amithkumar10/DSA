@@ -122,12 +122,40 @@ for (int i = 0; i < n; ++i)
 int rangeSum = prefix[j + 1] - prefix[i];
 ```
 
+**Pseudocode for Matrix:**
+
+```cpp
+// Preprocessing
+       //Making each row a prefixSum row
+        for(int i = 0; i<rows; i++){
+            for(int j = 1; j<cols; j++){
+               prefixSum[i][j] += prefixSum[i][j-1];
+            }
+        }
+
+        //Making each col a prefixSum col
+        for(int i = 1; i<rows; i++){  
+            for(int j = 0; j<cols; j++){
+               prefixSum[i][j] += prefixSum[i-1][j];
+            }
+        }
+
+// Query sum from prefixSum[row1][col1] to prefixSum[row2][col2]:
+   int total = prefixSum[row2][col2];
+         int top = (row1> 0)?prefixSum[row1-1][col2]:0;
+         int left = (col1>0)? prefixSum[row2][col1-1]:0;
+         int topLeft = (row1>0 && col1>0)? prefixSum[row1-1][col1-1]:0;
+
+        Sum = total - top -left + topLeft;
+
+
+```
 **🧩 Problems:**
 
 * [Subarray Sum Equals K](./Prefix%20Sum/Subarray%20Sum%20Equals%20K/README.md)
 * [Find Pivot Index](./724-find-pivot-index)
 * [Range Sum Query - Immutable](./303-range-sum-query-immutable)
-* [Range Sum Query 2D - Immutable](./Prefix%20Sum/Minimum%20Value%20to%20Get%20Positive%20Step%20by%20Step%20Sum/README.md)
+* [Range Sum Query 2D - Immutable](./304-range-sum-query-2d-immutable)
 
 ---
 
