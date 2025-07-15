@@ -58,6 +58,7 @@ while (left < right) {
 }
 ````
 
+
 **🧩 Problems:**
 
 * [Two Sum II Input Array is Sorted](./167-two-sum-ii-input-array-is-sorted)
@@ -70,7 +71,8 @@ while (left < right) {
 
 2. **Variation of 2 Pointer**:
     In this method **" i "** tracks the position to update unique or required elements, **" j "** is used to traverse in the array.
-    **This variation is commonly used in the in-place array/vector/list modification problem**
+   
+    **[ This variation is commonly used in the in-place array/vector/list modification problem ]**
 
 **Pseudocode:**
 ```cpp
@@ -99,12 +101,14 @@ while (left < right) {
 ## 2️⃣ Prefix Sum
 
 **Concept:**
-Prefix sum is a technique where we precompute cumulative sums for quick subarray sum queries. It transforms O(n²) range queries into O(n).
+Basic concept of this is that element at index[i] stores the sum of all the elements from the begining up to index[i] of the original array
+
 
 **When to Use:**
 
-* When you need frequent subarray sum computations
-* To detect ranges in constant time
+* Repeated sum calculation over subarrays or ranges
+* Finding sums quickly after preprocessing the data
+* Problems where you need to know the cumulative effects of elements up to a certain point
 
 **Pseudocode:**
 
@@ -121,9 +125,9 @@ int rangeSum = prefix[j + 1] - prefix[i];
 **🧩 Problems:**
 
 * [Subarray Sum Equals K](./Prefix%20Sum/Subarray%20Sum%20Equals%20K/README.md)
-* [Find Pivot Index](./Prefix%20Sum/Find%20Pivot%20Index/README.md)
-* [Range Sum Query - Immutable](./Prefix%20Sum/Range%20Sum%20Query%20-%20Immutable/README.md)
-* [Minimum Value to Get Positive Step by Step Sum](./Prefix%20Sum/Minimum%20Value%20to%20Get%20Positive%20Step%20by%20Step%20Sum/README.md)
+* [Find Pivot Index](./724-find-pivot-index)
+* [Range Sum Query - Immutable](./303-range-sum-query-immutable)
+* [Range Sum Query 2D - Immutable](./Prefix%20Sum/Minimum%20Value%20to%20Get%20Positive%20Step%20by%20Step%20Sum/README.md)
 
 ---
 
