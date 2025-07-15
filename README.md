@@ -1,17 +1,7 @@
-Here's a complete `README.md` file structured as a revision document for your LeetCode submissions repository. It includes:
-
-* A **DSA Pattern list** at the top.
-* Detailed explanation for **Two Pointer** and **Prefix Sum** patterns.
-* Links to problems inside your repo.
-
-You can add more patterns and problem links as your repo grows.
-
----
-
-````markdown
 # 📘 LeetCode DSA Revision Repository
 
-Welcome to my personal LeetCode submissions and revision repository. This is a structured guide to revisiting key Data Structures and Algorithms (DSA) patterns, explained with concepts, pseudocode, and direct links to problems I’ve solved — all in one place.
+Welcome to my personal LeetCode submissions and revision repository. 
+This is a structured guide to revisiting key Data Structures and Algorithms (DSA) patterns, explained with concepts, pseudocode, and direct links to problems I’ve solved — all in one place.
 
 ---
 
@@ -41,7 +31,7 @@ Welcome to my personal LeetCode submissions and revision repository. This is a s
 ## 1️⃣ Two Pointer
 
 **Concept:**  
-1. **General Method**
+1. **General Method**:
     The general 2 poitner method (with one pointer at the start & another at the end) is used in scenerio where you need to **process or find relationship between elements from both ends of a sorted array or list**
 
 **Pseudocode:**
