@@ -58,8 +58,8 @@ while (left < right) {
 
 ---
 
-2. **Variation of 2 pointer**:
-    In this method **i** tracks the position to update unique or required elements, **j** is used to traverse in the array.
+2. **Variation of 2 Pointer**:
+    In this method **" i "** tracks the position to update unique or required elements, **" j "** is used to traverse in the array.
     **This variation is commonly used in the in-place array/vector/list modification problem**
 
 **Pseudocode:**
