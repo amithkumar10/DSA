@@ -30,12 +30,15 @@ This is a structured guide to revisiting key Data Structures and Algorithms (DSA
 
 ## 1️⃣ Two Pointer
 
-**When to use Two Pointer**
+**When to Apply Two Pointer ??**
 1. Need to find Pair/Triplet/Sum
 2. Reverse/Rotate/Sub-array
 3. Duplicate Removal/Value Shifting
 4. Merge/Range Related
-5. Compare both ends of the array to find some relationship 
+5. Compare both ends of the array to find some relationship
+
+---
+   
 
 **Concept:**  
 1. **General Method**:
