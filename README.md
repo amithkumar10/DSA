@@ -50,13 +50,41 @@ while (left < right) {
 
 **🧩 Problems:**
 
-* [Two Sum](./Two%20Pointer/Two%20Sum/README.md)
-* [3Sum](./Two%20Pointer/3Sum/README.md)
-* [Container With Most Water](./Two%20Pointer/Container%20With%20Most%20Water/README.md)
-* [Valid Palindrome](./Two%20Pointer/Valid%20Palindrome/README.md)
-* [Remove Duplicates from Sorted Array](./Two%20Pointer/Remove%20Duplicates%20from%20Sorted%20Array/README.md)
+* [Two Sum II Input Array is Sorted](./167-two-sum-ii-input-array-is-sorted)
+* [3Sum](./15-3sum)
+* [3 Sum Closest](./16-3sum-closest)
+* [Valid Palindrome](./9-palindrome-number)
+* [Squares of a Sorted Array](./1019-squares-of-a-sorted-array)
 
 ---
+
+2. **Variation of 2 pointer**:
+    In this method **i** tracks the position to update unique or required elements, **j** is used to traverse in the array.
+    **This variation is commonly used in the in-place array/vector/list modification problem**
+
+**Pseudocode:**
+```cpp
+ int i = 0;
+
+       for(int j = 1; j<nums.size(); j++){
+
+        if(nums[j] != nums[i]){
+            i++;
+
+            nums[i]=nums[j];
+        }
+       }
+````
+
+**🧩 Problems:**
+
+* [Remove Duplicates from Sorted Array](./26-remove-duplicates-from-sorted-array)
+* [Move Zeroes](./283-move-zeroes)
+* [Remove Elements](./27-remove-element)
+* [Merge Sorted Array](./88-merge-sorted-array)
+
+---
+
 
 ## 2️⃣ Prefix Sum
 
