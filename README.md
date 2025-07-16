@@ -152,7 +152,7 @@ int rangeSum = prefix[j + 1] - prefix[i];
 ```
 **🧩 Problems:**
 
-* [Subarray Sum Equals K](./Prefix%20Sum/Subarray%20Sum%20Equals%20K/README.md)
+* [Subarray Sum Equals K](./Prefix%20Sum/Subarray%20Sum%20Equals%20K/README.md) (Need to use Hashmap along with PrefixSum)
 * [Find Pivot Index](./724-find-pivot-index)
 * [Range Sum Query - Immutable](./303-range-sum-query-immutable)
 * [Range Sum Query 2D - Immutable](./304-range-sum-query-2d-immutable)
