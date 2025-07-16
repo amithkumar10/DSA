@@ -110,6 +110,8 @@ Basic concept of this is that element at index[i] stores the sum of all the elem
 * Finding sums quickly after preprocessing the data
 * Problems where you need to know the cumulative effects of elements up to a certain point
 
+**NOTE!** You should not alter the prefixSum array/vector that you have created while solving any problem.
+
 **Pseudocode:**
 
 ```cpp
@@ -152,7 +154,7 @@ int rangeSum = prefix[j + 1] - prefix[i];
 ```
 **🧩 Problems:**
 
-* [Subarray Sum Equals K](./Prefix%20Sum/Subarray%20Sum%20Equals%20K/README.md) (Need to use Hashmap along with PrefixSum)
+* [Subarray Sum Equals K](./Prefix%20Sum/Subarray%20Sum%20Equals%20K/README.md) ````(Need to use Hashmap along with PrefixSum)````
 * [Find Pivot Index](./724-find-pivot-index)
 * [Range Sum Query - Immutable](./303-range-sum-query-immutable)
 * [Range Sum Query 2D - Immutable](./304-range-sum-query-2d-immutable)
