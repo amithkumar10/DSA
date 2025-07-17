@@ -7,24 +7,24 @@ This is a structured guide to revisiting key Data Structures and Algorithms (DSA
 
 ## 🧠 DSA Patterns Covered
 
-1. Two Pointer
-2. Prefix Sum
-3. Sliding Window
-4. Binary Search
-5. Fast & Slow Pointers (Floyd's Cycle Detection)
-6. Merge Intervals
-7. Stack (Monotonic Stack / Infix-Postfix)
-8. BFS / DFS
-9. Backtracking
-10. Dynamic Programming
-11. Trie
-12. Graphs (Union-Find, Dijkstra, etc.)
-13. Bit Manipulation
-14. Heap / Priority Queue
-15. Greedy
-16. Topological Sort
-17. Segment Tree
-18. Binary Indexed Tree (Fenwick Tree)
+1. [Two Pointer](#1️⃣-two-pointer)
+2. [Prefix Sum](#2️⃣-prefix-sum)
+3. [Sliding Window](#3️⃣-sliding-window)
+4. [Binary Search](#4️⃣-binary-search)
+5. [Fast & Slow Pointers (Floyd's Cycle Detection)](#5️⃣-fast--slow-pointers-floyds-cycle-detection)
+6. [Merge Intervals](#6️⃣-merge-intervals)
+7. [Stack (Monotonic Stack / Infix-Postfix)](#7️⃣-stack-monotonic-stack--infix-postfix)
+8. [BFS / DFS](#8️⃣-bfs--dfs)
+9. [Backtracking](#9️⃣-backtracking)
+10. [Dynamic Programming](#🔟-dynamic-programming)
+11. [Trie](#11️⃣-trie)
+12. [Graphs (Union-Find, Dijkstra, etc.)](#12️⃣-graphs-union-find-dijkstra-etc)
+13. [Bit Manipulation](#13️⃣-bit-manipulation)
+14. [Heap / Priority Queue](#14️⃣-heap--priority-queue)
+15. [Greedy](#15️⃣-greedy)
+16. [Topological Sort](#16️⃣-topological-sort)
+17. [Segment Tree](#17️⃣-segment-tree)
+18. [Binary Indexed Tree (Fenwick Tree)](#18️⃣-binary-indexed-tree-fenwick-tree)
 
 ---
 
@@ -94,7 +94,8 @@ while (left < right) {
 * [Move Zeroes](./283-move-zeroes)
 * [Remove Elements](./27-remove-element)
 * [Merge Sorted Array](./88-merge-sorted-array)
-
+* [🔝 Back to Index](##-🧠-dsa-patterns-covered)
+                                              
 ---
 
 
