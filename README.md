@@ -5,7 +5,7 @@ This is a structured guide to revisiting key Data Structures and Algorithms (DSA
 
 ---
 
-## 🧠 DSA Patterns Covered
+## DSA Patterns Covered
 
 1. [Two Pointer](#1️⃣-two-pointer)
 2. [Prefix Sum](#2️⃣-prefix-sum)
