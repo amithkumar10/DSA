@@ -94,7 +94,14 @@ while (left < right) {
 * [Move Zeroes](./283-move-zeroes)
 * [Remove Elements](./27-remove-element)
 * [Merge Sorted Array](./88-merge-sorted-array)
-* [🔝 Back to Index](##-🧠-dsa-patterns-covered)
+<div align="right">
+  <a href="#dsa-patterns-covered" style="text-decoration:none;">
+    <span style="background-color:#e0e0e0; padding:6px 12px; border-radius:5px; font-weight:600; color:#000;">
+      🔝 Back to Index
+    </span>
+  </a>
+</div>
+
                                               
 ---
 
