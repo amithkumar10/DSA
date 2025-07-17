@@ -166,7 +166,13 @@ int rangeSum = prefix[j + 1] - prefix[i];
 * [Find Pivot Index](./724-find-pivot-index)
 * [Range Sum Query - Immutable](./303-range-sum-query-immutable)
 * [Range Sum Query 2D - Immutable](./304-range-sum-query-2d-immutable)
-
+<div align="right">
+  <a href="#dsa-patterns-covered" style="text-decoration:none;">
+    <span style="background-color:#e0e0e0; padding:6px 12px; border-radius:5px; font-weight:600; color:#000;">
+      🔝 Back to Index
+    </span>
+  </a>
+</div>
 ---
 
 
