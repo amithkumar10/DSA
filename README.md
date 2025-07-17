@@ -173,6 +173,68 @@ int rangeSum = prefix[j + 1] - prefix[i];
     </span>
   </a>
 </div>
+
 ---
 
+## 3️⃣ Sliding Window
+Concept:
+The sliding window pattern involves using a window (range of elements) that moves through the array to find subarray-based results. Instead of recomputing the result every time, you reuse previous computations by sliding the window forward.
+
+**There are two types:**
+* Fixed-size window (e.g. window of size k)
+* Variable-size window (e.g. longest substring with at most k distinct characters)
+
+**When to Use:**
+* Continuous subarray or substring problems
+* Need to calculate sum, max, or any operation over a range
+* Optimizing brute-force subarray solutions
+* Problems with "longest", "shortest", "at most", "at least" in sliding ranges
+
+
+
+
+🧮 Fixed-Size Window – Pseudocode
+```cpp
+int maxSum = 0, windowSum = 0;
+for (int i = 0; i < k; i++) {
+    windowSum += arr[i];
+}
+maxSum = windowSum;
+
+for (int i = k; i < arr.size(); i++) {
+    windowSum += arr[i] - arr[i - k];
+    maxSum = max(maxSum, windowSum);
+}
+
+````
+
+🧮 Variable-Size Window – Pseudocode (Longest Substring with K Distinct Chars)
+```cpp
+int left = 0, maxLen = 0;
+unordered_map<char, int> freq;
+
+for (int right = 0; right < s.length(); right++) {
+    freq[s[right]]++;
+
+    while (freq.size() > k) {
+        freq[s[left]]--;
+        if (freq[s[left]] == 0) {
+            freq.erase(s[left]);
+        }
+        left++;
+    }
+
+    maxLen = max(maxLen, right - left + 1);
+}
+````
+
+🧩 Problems:
+
+<div align="right">
+  <a href="#dsa-patterns-covered" style="text-decoration:none;">
+    <span style="background-color:#e0e0e0; padding:6px 12px; border-radius:5px; font-weight:600; color:#000;">
+      🔝 Back to Index
+    </span>
+  </a>
+</div>
 
